@@ -29,5 +29,4 @@ public class Answer extends AuditModel {
     @JsonIgnore
     private Question question;
 
-    // Getters and Setters (Omitted for brevity)
 }
