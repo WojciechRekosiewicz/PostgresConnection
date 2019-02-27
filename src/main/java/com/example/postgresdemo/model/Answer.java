@@ -2,9 +2,12 @@ package com.example.postgresdemo.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.*;
+
+import lombok.Data;
 import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
 
+@Data
 @Entity
 @Table(name = "answers")
 public class Answer extends AuditModel {
